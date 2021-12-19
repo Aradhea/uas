@@ -1,0 +1,29 @@
+.jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    background: url('foto/images.jpg');
+    background-color: rgb(44, 44, 44);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+}
+
+#about {
+    background-color: black;
+}
+
+#contact {
+    background-color: black;
+}
+
+section {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+#cv{
+    margin-left: -300px;
+    width: 200px;
+}
+#navbarNav a:hover{
+    color: blanchedalmond;
+}

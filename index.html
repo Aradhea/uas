@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+  <!-- CSS Saya -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portofolio | Aradhea Rangga Maulana</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body id="home">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #0d0d0d;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Aradhea Rangga Maulana</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Selesai Navbar -->
+
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center text-light">
+    <div class="foto" style="margin-top: 90px;">
+      <img src="foto/3 x 4.jpg" alt="Aradhea" width="150" class="rounded-circle img-thumbnail">
+      <h1 class="display-4">Aradhea Rangga Maulana</h1>
+      <p class="lead">Student - Programmer - BADUT</p>
+
+    </div>
+  </section>
+  <!-- Selesai Jumbotron -->
+
+  <!-- About -->
+  <section id="about" class="text-light" data-aos="fade-down">
+    <div class="container">
+      <div class="row text-center mb-3 ">
+        <div class="col">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="col-md-4">  
+          <p>Saya Aradhea Rangga Maulana lahir di kota Bangkalan pada tanggal 8 Juni 2003 </p>
+        </div>
+        <div class="col-md-4">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos a illum aliquid, nisi quasi ut doloremque quo
+            eius doloribus. Rem eum architecto sunt harum nesciunt.</p>
+            <a href="">
+              <button class="btn btn-primary" id="cv">Get CV</button></a>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Selesai About -->
+
+  <!-- Projects -->
+  <section id="projects" data-aos="fade-down">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>My Projects</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/web design.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/web design.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/web design.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Selesai Projects -->
+
+  <!-- Contact -->
+  <section id="contact" data-aos="fade-down">
+    <div class="container text-light">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name">
+            </div>
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email">
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn mb-3 text-light" style="background-color: #E50914;">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selesai Contact -->
+  <footer class="text-white text-center pb-1" style="background-color: #E50914;">
+    <p>Created with 99% <i class="bi bi-heart-fill"></i> and 1% Bullshit by <a
+        href="https://www.instagram.com/fianazaaa/" class="text-white fw-bold">Latifian Iman</a></p>
+  </footer>
+  <!-- Footer -->
+
+  <!-- Selesai Footer -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 2000
+    });
+  </script>
+
+  <script>
+    hljs.initHighlightingOnLoad();
+
+    $('.hero__scroll').on('click', function (e) {
+      $('html, body').animate({
+        scrollTop: $(window).height()
+      }, 2000);
+    });
+  </script>
+</body>
+
+</html>
